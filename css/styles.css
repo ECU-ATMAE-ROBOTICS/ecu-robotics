@@ -4,24 +4,31 @@
     padding: 10px;
   }
   
-  .header-nav ul {
+  .header-nav {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .header-nav-list {
     list-style-type: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
   }
   
-  .header-nav ul li {
-    display: inline;
+  .header-nav-list li {
+    margin-right: 20px;
   }
   
-  .header-nav ul li a {
-    display: inline-block;
-    padding: 5px 10px;
+  .header-nav-list li:last-child {
+    margin-right: 0;
+  }
+  
+  .header-nav-list li a {
     text-decoration: none;
     color: #666;
   }
   
-  .header-nav ul li a:hover {
+  .header-nav-list li a:hover {
     color: #333;
   }
 /*---------------------------*/
