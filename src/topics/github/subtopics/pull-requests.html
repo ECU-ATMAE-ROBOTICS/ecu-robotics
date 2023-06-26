@@ -1,59 +1,71 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>GitHub Pull Request</title>
-</head>
-<body>
-  <h1>How to Do a Pull Request on GitHub</h1>
-  <ol>
-    <li>
-      <h2>Fork the Repository</h2>
-      <p>
-        Start by navigating to the repository you want to contribute to on GitHub. Click the "Fork" button in the top right corner of the repository page. This will create a copy of the repository in your own GitHub account.
-      </p>
-    </li>
-    <li>
-      <h2>Clone the Repository</h2>
-      <p>
-        After forking, navigate to your GitHub account where you'll find the forked repository. Click the "Code" button and copy the repository's URL. Open your preferred Git client or terminal and use the following command to clone the repository to your local machine:
-      </p>
-      <pre><code>git clone &lt;repository-url&gt;</code></pre>
-    </li>
-    <li>
-      <h2>Create a New Branch</h2>
-      <p>
-        Change to the repository's directory on your local machine using the following command:
-      </p>
-      <pre><code>cd &lt;repository-directory&gt;</code></pre>
-      <p>
-        Create a new branch for your changes with a descriptive name using the following command:
-      </p>
-      <pre><code>git checkout -b &lt;branch-name&gt;</code></pre>
-    </li>
-    <li>
-      <h2>Make and Commit Your Changes</h2>
-      <p>
-        Make the necessary changes to the files in your local repository using your preferred text editor or IDE. Once you're satisfied with the changes, save the files and stage them for commit:
-      </p>
-      <pre><code>git add .</code></pre>
-      <p>
-        Commit the changes with a meaningful commit message:
-      </p>
-      <pre><code>git commit -m "Your commit message here"</code></pre>
-    </li>
-    <li>
-      <h2>Push Your Changes</h2>
-      <p>
-        Push your changes to your forked repository on GitHub using the following command:
-      </p>
-      <pre><code>git push origin &lt;branch-name&gt;</code></pre>
-    </li>
-    <li>
-      <h2>Create the Pull Request</h2>
-      <p>
-        Visit the original repository on GitHub and switch to the branch you just pushed. Click the "Compare &amp; pull request" button next to your branch name. Add a descriptive title and detailed description for your pull request, and then click the "Create pull request" button.
-      </p>
-    </li>
-  </ol>
-</body>
+<html lang="en">
+  <head>
+    <title>GitHub Pull Request</title>
+  </head>
+  <body>
+    <h1>How to Do a Pull Request on GitHub</h1>
+    <ol>
+      <li>
+        <h2>Fork the Repository</h2>
+        <p>
+          Start by navigating to the repository you want to contribute to on
+          GitHub. Click the "Fork" button in the top right corner of the
+          repository page. This will create a copy of the repository in your own
+          GitHub account.
+        </p>
+      </li>
+      <li>
+        <h2>Clone the Repository</h2>
+        <p>
+          After forking, navigate to your GitHub account where you'll find the
+          forked repository. Click the "Code" button and copy the repository's
+          URL. Open your preferred Git client or terminal and use the following
+          command to clone the repository to your local machine:
+        </p>
+        <pre><code>git clone &lt;repository-url&gt;</code></pre>
+      </li>
+      <li>
+        <h2>Create a New Branch</h2>
+        <p>
+          Change to the repository's directory on your local machine using the
+          following command:
+        </p>
+        <pre><code>cd &lt;repository-directory&gt;</code></pre>
+        <p>
+          Create a new branch for your changes with a descriptive name using the
+          following command:
+        </p>
+        <pre><code>git checkout -b &lt;branch-name&gt;</code></pre>
+      </li>
+      <li>
+        <h2>Make and Commit Your Changes</h2>
+        <p>
+          Make the necessary changes to the files in your local repository using
+          your preferred text editor or IDE. Once you're satisfied with the
+          changes, save the files and stage them for commit:
+        </p>
+        <pre><code>git add .</code></pre>
+        <p>Commit the changes with a meaningful commit message:</p>
+        <pre><code>git commit -m "Your commit message here"</code></pre>
+      </li>
+      <li>
+        <h2>Push Your Changes</h2>
+        <p>
+          Push your changes to your forked repository on GitHub using the
+          following command:
+        </p>
+        <pre><code>git push origin &lt;branch-name&gt;</code></pre>
+      </li>
+      <li>
+        <h2>Create the Pull Request</h2>
+        <p>
+          Visit the original repository on GitHub and switch to the branch you
+          just pushed. Click the "Compare &amp; pull request" button next to
+          your branch name. Add a descriptive title and detailed description for
+          your pull request, and then click the "Create pull request" button.
+        </p>
+      </li>
+    </ol>
+  </body>
 </html>
