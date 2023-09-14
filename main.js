@@ -1,9 +1,32 @@
-window.addEventListener("scroll", function() {
-    var navbar = document.getElementById("navbar");
-    if (window.pageYOffset > 0) {
-      navbar.classList.add("sticky");
-    } else {
-      navbar.classList.remove("sticky");
-    }
-  });
+let navbar = document.querySelector('.navbar');
+document.querySelector('#menu-bar').onclick=() =>{
+    navbar.classList.toggle('active');
+}
   
+
+function addEventToCalendar(eventDetails) {
+  // Initialize the Google Calendar API client and authenticate the user.
+  // (You'll need to set up proper authentication and API initialization.)
+
+  // Create the event.
+  const event = {
+      'summary': eventDetails.title,
+      'description': eventDetails.description,
+      'start': {
+          'dateTime': eventDetails.startTime,
+          'timeZone': 'your-timezone',
+      },
+      'end': {
+          'dateTime': eventDetails.endTime,
+          'timeZone': 'your-timezone',
+      },
+  };
+
+  // Use the API to insert the event into the calendar.
+  // gapi.client.calendar.events.insert({
+  //     'calendarId': 'primary', // Use the appropriate calendar ID
+  //     'resource': event,
+  // }).then(function(response) {
+  //     console.log('Event created: ' + response.htmlLink);
+  // });
+}

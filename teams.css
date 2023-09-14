@@ -1,0 +1,43 @@
+/* Style for team sections */
+.team-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background: linear-gradient(135deg, #fff, #ddd); /* Gradient background (grey and white) */
+    border-radius: 10px;
+}
+
+/* Style for team images */
+.team-image {
+    max-width: 150px;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for team images */
+    margin-right: 20px; /* Add margin to the right of the image */
+}
+
+.team-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for team images */
+}
+
+/* Style for team info */
+.team-info {
+    flex: 1;
+    text-align: left; /* Align text to the left */
+}
+
+/* Style for team names */
+.team-info h2 {
+    margin: 0;
+    padding-top: 10px; /* Add padding to the top of team names */
+}
+
+/* Style for team leads */
+.team-info p {
+    font-weight: bold;
+    margin-top: 5px;
+    padding-top: 5px; /* Add padding to the top of team leads */
+}

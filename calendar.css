@@ -1,0 +1,90 @@
+/* Updated calendar.css with gold, purple, and white gradient */
+
+/* Keep the existing body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* White background for the entire page */
+}
+
+/* Keep the existing #calendar styles */
+#calendar {
+    max-width: 800px;
+    margin: 0 auto;
+    background: linear-gradient(135deg, #FFD700, #663399, #fff); /* Gradient background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0.9; /* Set opacity to make it semi-transparent */
+}
+
+/* Keep the existing .header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff; /* White text color for the header */
+}
+
+/* Keep the existing table styles */
+table {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+table, th, td {
+    text-align: center;
+    border: 1px solid #ddd; /* Add grid lines */
+}
+
+/* Keep the existing th and td styles */
+th, td {
+    padding: 10px;
+}
+
+/* Keep the existing #event-form styles */
+#event-form {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+/* Keep the existing input and button styles */
+#event-form input, #event-form button {
+    margin-right: 10px;
+}
+
+/* Keep the existing #event-list styles */
+#event-list {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    color: #fff; /* White text color for event list */
+}
+
+/* Keep the existing input field styles */
+input[type="text"], input[type="date"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Keep the existing "Add" button styles */
+#add-event {
+    background-color: #FFD700; /* Old gold background for the button */
+    color: #fff; /* White text color for the button */
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Keep the existing event list styles */
+#events li {
+    margin-bottom: 5px;
+    list-style: none;
+}

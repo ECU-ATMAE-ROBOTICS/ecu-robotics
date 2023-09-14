@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#announcement-box {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    max-width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    float: left;
+}
+
+#teams-box {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 55%;
+}
+
+#calendar {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#links-box {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
