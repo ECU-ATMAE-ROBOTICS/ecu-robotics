@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="competition.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="calendar.css"> 
+    <title>Competition</title>
+</head>
+<body>
+    <div class="header" id="navbar">
+        <div class="logoContent">
+          <a href="#" class="logo"><img src="" alt=""></a>
+          <h1 class="logoName"> </h1>
+      </div>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#members">Meet the Members</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </div>
+  </div>
+
+    <div id="announcement-box">
+        <h2>Announcements:</h2>
+        <!-- Announcement content goes here -->
+    </div>
+
+    <div id="teams-box">
+        <h2>Team Updates</h2>
+        <div id="fabrication-team">
+            <h3>Fabrication Team:</h3>
+            <!-- Fabrication team content goes here -->
+        </div>
+        <div id="code-team">
+            <h3>Code Team:</h3>
+            <!-- Code team content goes here -->
+        </div>
+        <div id="electrical-team">
+            <h3>Electrical Team:</h3>
+            <!-- Electrical team content goes here -->
+        </div>
+    </div>
+
+    <!-- Custom Calendar -->
+    <div id="calendar">
+        <h2>Calendar</h2>
+        <div class="header">
+            <button id="prev-month">&lt;</button>
+            <h1 id="current-month"></h1>
+            <button id="next-month">&gt;</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+            </thead>
+            <tbody id="calendar-body"></tbody>
+        </table>
+        <div id="event-form">
+            <h2>Add Event/Reminder</h2>
+            <input type="text" id="event-name" placeholder="Event/Reminder">
+            <input type="date" id="event-date">
+            <button id="add-event">Add</button>
+        </div>
+        <div id="event-list">
+            <h2>Events and Reminders</h2>
+            <ul id="events"></ul>
+        </div>
+    </div>
+    <!-- End of Custom Calendar -->
+
+    <div id="links-box">
+        <h2>Useful Links</h2>
+        <ul>
+            <li><a href="past-projects.html">Past Projects</a></li>
+            <li><a href="https://github.com/your-github-link">GitHub</a></li>
+            <li><a href="minutes.html">Minutes</a></li>
+        </ul>
+    </div>
+     <!-- Start of the footer -->
+    <div class="footer">
+ 
+    </div>
+
+    <script src="main.js"></script>
+    <script src="calendar.js"></script> <!-- Add the calendar JavaScript -->
+</body>
+</html>
